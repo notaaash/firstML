@@ -18,8 +18,8 @@ def recommend_lawyer(filtered_data_sorted, prioritize_yoe):
     return recommended_lawyer
 
 # Load data from CSV file
-url = "resources/ids_31-208.csv"
-names = ['unique-id', 'name', 'budget', 'yoe', 'complexity', 'duration', 'location']
+url = "resources/ids_31-2081.csv"
+names = ['unique-id', 'budget', 'yoe', 'complexity', 'duration', 'location']
 data = read_csv(url, names=names)
 
 # Check if the dataset is empty
